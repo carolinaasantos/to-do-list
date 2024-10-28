@@ -36,3 +36,26 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+/*const todos = [
+    {
+        'check': true,
+        'name': 'Danilo',
+    },
+    {
+        'check': true,
+        'name': 'Danilo',
+    },
+    {
+        'check': true,
+        'name': 'Danilo',
+    },
+    {
+        'check': true,
+        'name': 'Danilo',
+    }
+]
+
+todos.map((item) => {
+    item.name
+})*/
